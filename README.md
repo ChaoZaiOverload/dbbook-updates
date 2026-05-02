@@ -10,7 +10,7 @@ Douban's reading updates feed (`book.douban.com/updates`) shows when a friend fi
 
 For every rated entry on the updates page, the extension fetches the book's comment page sorted by friends and injects the matching friend's comment directly below the existing book info — no extra clicks required.
 
-![Screenshot](docs/screenshot.png)
+![Screenshot](docs/screenshot.jpg)
 
 **Scope:** only rated entries (读过 with stars) are processed. 想读 and 在读 entries without a rating are skipped.
 
@@ -70,7 +70,7 @@ extension/
 
 对于动态页面上每一条有评分的记录，扩展会自动获取该书按好友排序的短评页，并将对应好友的短评直接注入到书目信息下方，无需额外点击。
 
-![截图](docs/screenshot.png)
+![截图](docs/screenshot.jpg)
 
 **范围说明：** 只处理有星级评分的"读过"记录，没有评分的"想读"和"在读"记录会被跳过。
 
