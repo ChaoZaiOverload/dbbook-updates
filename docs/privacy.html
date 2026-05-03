@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy – 豆瓣我关注的阅读动态显示短评</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      max-width: 720px;
+      margin: 60px auto;
+      padding: 0 24px;
+      color: #222;
+      line-height: 1.7;
+    }
+    h1 { font-size: 1.5rem; margin-bottom: 4px; }
+    h2 { font-size: 1.1rem; margin-top: 36px; }
+    p, li { font-size: 0.97rem; }
+    .updated { color: #888; font-size: 0.88rem; margin-bottom: 36px; }
+    hr { border: none; border-top: 1px solid #eee; margin: 48px 0; }
+  </style>
+</head>
+<body>
+
+  <h1>Privacy Policy</h1>
+  <p class="updated">Last updated: May 3, 2026</p>
+
+  <p>
+    This privacy policy applies to the Chrome extension
+    <strong>豆瓣我关注的阅读动态显示短评</strong>
+    ("the extension").
+  </p>
+
+  <h2>Data collected</h2>
+  <p>
+    The extension does not collect, transmit, or store any personally
+    identifiable information. No analytics, tracking, or telemetry of any
+    kind is performed.
+  </p>
+
+  <h2>Local storage</h2>
+  <p>
+    The extension uses <code>chrome.storage.local</code> to cache book
+    comment data on your own device. The cache stores a mapping of
+    Douban book subject IDs to comment text fetched from
+    <code>book.douban.com</code>. This data never leaves your device and
+    is used solely to avoid redundant network requests on repeat visits.
+  </p>
+
+  <h2>Network requests</h2>
+  <p>
+    When you visit <code>book.douban.com/updates</code>, the extension
+    fetches the public comment page for each book displayed
+    (<code>book.douban.com/subject/{id}/comments?sort=follows</code>)
+    using your existing Douban login session. These requests go directly
+    to Douban's servers. No data is routed through any third-party server
+    operated by this extension.
+  </p>
+
+  <h2>Permissions</h2>
+  <ul>
+    <li>
+      <strong>storage</strong> — used to cache comment data locally on
+      your device to minimise repeat network requests.
+    </li>
+    <li>
+      <strong>host permission: https://book.douban.com/*</strong> —
+      required to fetch friend-sorted comment pages from Douban with your
+      login session so that personalised results are returned.
+    </li>
+  </ul>
+
+  <h2>Third parties</h2>
+  <p>
+    No data is shared with, sold to, or processed by any third party.
+    The extension communicates exclusively with <code>book.douban.com</code>.
+  </p>
+
+  <h2>Contact</h2>
+  <p>
+    For questions about this policy, please open an issue on the
+    <a href="https://github.com/ChaoZaiOverload/dbbook-updates">GitHub repository</a>.
+  </p>
+
+  <hr />
+
+  <h1>隐私政策</h1>
+  <p class="updated">最后更新：2026年5月3日</p>
+
+  <p>
+    本隐私政策适用于 Chrome 扩展程序
+    <strong>豆瓣我关注的阅读动态显示短评</strong>（以下简称"本扩展"）。
+  </p>
+
+  <h2>数据收集</h2>
+  <p>
+    本扩展不收集、传输或存储任何个人身份信息，不进行任何形式的数据分析、追踪或遥测。
+  </p>
+
+  <h2>本地存储</h2>
+  <p>
+    本扩展使用 <code>chrome.storage.local</code> 在您的设备本地缓存书籍短评数据。
+    缓存内容为豆瓣书籍 ID 与对应短评文本的映射关系，该数据不会离开您的设备，
+    仅用于避免重复访问时的冗余网络请求。
+  </p>
+
+  <h2>网络请求</h2>
+  <p>
+    当您访问 <code>book.douban.com/updates</code> 时，本扩展会使用您已有的豆瓣登录状态，
+    为页面上显示的每本书请求其评论页面
+    （<code>book.douban.com/subject/{id}/comments?sort=follows</code>）。
+    所有请求直接发往豆瓣服务器，不经过本扩展的任何第三方服务器中转。
+  </p>
+
+  <h2>权限说明</h2>
+  <ul>
+    <li>
+      <strong>storage</strong> — 用于在本地设备缓存短评数据，减少重复网络请求。
+    </li>
+    <li>
+      <strong>host 权限：https://book.douban.com/*</strong> —
+      需要以用户登录状态请求豆瓣按好友排序的评论接口，以获取个性化的好友评论数据。
+    </li>
+  </ul>
+
+  <h2>第三方数据共享</h2>
+  <p>
+    本扩展不向任何第三方共享、出售或提供数据处理服务。扩展仅与 <code>book.douban.com</code> 通信。
+  </p>
+
+  <h2>联系方式</h2>
+  <p>
+    如对本政策有任何疑问，请在
+    <a href="https://github.com/ChaoZaiOverload/dbbook-updates">GitHub 仓库</a>
+    提交 issue。
+  </p>
+
+</body>
+</html>
