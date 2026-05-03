@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Douban Book Updates Comments",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Show friend comments alongside ratings on 我关注的阅读动态",
   "permissions": ["storage"],
   "host_permissions": [
